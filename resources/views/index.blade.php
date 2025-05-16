@@ -1,4 +1,4 @@
-@include('layouts.header')
+@include('layouts.beware-header')
 
 <style>
     aside, .main-header { display: none; }
@@ -76,4 +76,4 @@
     </div>
 </div>
 
-@include('layouts.footer')
+@include('layouts.beware-footer')

@@ -23,47 +23,64 @@
         <ul class="side-menu open">
             <li class="side-item side-item-category">BEWARE Panel</li>
             <li class="slide">
-                <a class="side-menu__item" href="beware-warranty-tracking.php">
+                <a class="side-menu__item">
                     <i class="bx bxs-dashboard tx-20 mr-3"></i>
                     <span class="side-menu__label">Dashboard</span>
                 </a>
             </li>
             <li class="slide">
-                <a class="side-menu__item" href="beware-warranty-tracking.php">
+                <a class="side-menu__item" data-toggle="slide">
+                    <i class="bx bx-data tx-20 mr-3"></i>
+                    <span class="side-menu__label">Master Data</span>
+                    <i class="angle fe fe-chevron-down"></i>
+                </a>
+                <ul class="slide-menu">
+                    <li><a class="slide-item">Item Master</a></li>
+                    <li><a class="slide-item">Vendor Master</a></li>
+                </ul>
+            </li>
+            <li class="slide">
+                <a class="side-menu__item">
+                    <i class="bx bx-gift tx-20 mr-3"></i>
+                    <span class="side-menu__label">Sales & Offer</span>
+                </a>
+            </li>
+            <li class="slide">
+                <a class="side-menu__item">
                     <i class="bx bx-file-blank tx-20 mr-3"></i>
-                    <span class="side-menu__label">MDC</span>
+                    <span class="side-menu__label">Purchase Order</span>
                 </a>
             </li>
             <li class="slide">
-                <a class="side-menu__item" href="beware-warranty-tracking.php">
-                    <i class="bx bx-file-find tx-20 mr-3"></i>
-                    <span class="side-menu__label">WCC</span>
+                <a class="side-menu__item">
+                    <i class="bx bx-rupee tx-20 mr-3"></i>
+                    <span class="side-menu__label">Expense</span>
                 </a>
             </li>
             <li class="slide">
-                <a class="side-menu__item" href="beware-warranty-tracking.php">
-                    <i class="bx bx-file tx-20 mr-3"></i>
-                    <span class="side-menu__label">PO</span>
+                <a class="side-menu__item" >
+                    <i class="bx bx-archive tx-20 mr-3"></i>
+                    <span class="side-menu__label">Inventory Management</span>
                 </a>
             </li>
             <li class="slide">
-                <a class="side-menu__item" href="beware-warranty-tracking.php">
+                <a class="side-menu__item">
                     <i class="bx bx-file-blank tx-20 mr-3"></i>
                     <span class="side-menu__label">Delivery Challan</span>
                 </a>
             </li>
             <li class="slide">
-                                <a class="side-menu__item" href="beware-warranty-tracking.php">
-                                    <i class="bx bx-time-five tx-20 mr-3"></i>
-                                    <span class="side-menu__label">Warranty Tracker</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a class="side-menu__item" href="beware-support-tool.php">
-                                    <i class="bx bx-chat tx-20 mr-3"></i>
-                                    <span class="side-menu__label">Support Tool</span>
-                                </a>
-                            </li>
+                <a class="side-menu__item">
+                    <i class="bx bx-time-five tx-20 mr-3"></i>
+                    <span class="side-menu__label">Warranty Tracker</span>
+                </a>
+            </li>
+            <li class="slide">
+                <a class="side-menu__item">
+                    <i class="bx bx-chat tx-20 mr-3"></i>
+                    <span class="side-menu__label">Support Tool</span>
+                </a>
+            </li>
         </ul>
     </div>
 </aside>

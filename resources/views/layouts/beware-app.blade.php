@@ -1,16 +1,13 @@
-@include('layouts.header')
-<!-- Main Page -->
+@include('layouts.beware-header')
 
-    <!-- Sidebar -->
-    @include('partials.sidebar')
+    @include('partials.beware-sidebar')
 
     <!-- Main Content -->
     <div class="main-content">
-        @yield('content')
+    @yield('content')
     </div>
-    @extends('layouts.footer')
+@include('layouts.beware-footer')
 
-<!-- JS Scripts -->
 <script src="{{ asset('assets/plugins/ionicons/ionicons.js') }}"></script>
 {{-- Add your JS files here --}}
 </body>
